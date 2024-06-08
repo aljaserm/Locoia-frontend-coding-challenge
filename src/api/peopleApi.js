@@ -28,14 +28,14 @@ const people = [
 export function getAll(canReturnError = false) {
   return new Promise((resolve, reject) => {
     if (!canReturnError) {
-      resolve(people)
+      resolve(people);
     }
 
-    const hasErrorOccurred = (Math.round(Math.random() * 3)) === 0
+    const hasErrorOccurred = Math.round(Math.random() * 3) === 0;
     if (hasErrorOccurred) {
-      reject(new Error('An error has occurred!'))
+      reject(new Error('An error has occurred!'));
     }
-    
-    resolve(people)
-  })
+
+    resolve(people);
+  });
 }
