@@ -17,7 +17,6 @@
     - [Accessibility](#accessibility)
     - [CSS Structure](#css-structure)
     - [Additional Improvements](#additional-improvements)
-- [License](#license)
 
 ## Project Description
 
